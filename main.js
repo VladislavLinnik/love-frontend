@@ -38,6 +38,6 @@ function changeImages() {
         } else {
             index = 1;
         }
-        image.src = `images/${index}.jpeg`;
+        image.src = `images/${index}.png`;
     }, INTERVAL);
 }

@@ -72,8 +72,24 @@ body {
     max-width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+    .description {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .images {
         width: 80vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .images {
+        width: 88vw;
+    }
+
+    body {
+        padding: 3vh;
     }
 }
